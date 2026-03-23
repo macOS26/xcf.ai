@@ -221,6 +221,34 @@ nav ul li a:hover {
     color: white !important;
 }
 
+/* Agent Banner */
+.agent-banner {
+    background: linear-gradient(to right, #007aff, #00c6ff);
+    text-align: center;
+    padding: 10px 16px;
+    font-size: 0.95rem;
+    color: white;
+    font-weight: 500;
+}
+
+.agent-banner a {
+    color: white;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: opacity 0.3s ease;
+}
+
+.agent-banner a:hover {
+    opacity: 0.85;
+}
+
+.agent-banner img {
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
 /* Navigation Sponsor Banner */
 .nav-sponsor {
     text-align: center;
