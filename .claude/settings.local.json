@@ -3,7 +3,8 @@
     "allow": [
       "mcp__xcf-server__build_project",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(open:*)"
     ],
     "deny": [],
     "ask": []
